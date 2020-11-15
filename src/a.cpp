@@ -1,10 +1,7 @@
 #include <bits/stdc++.h>
-using namespace std;
+#include "debug.hpp"
 
-#define DEBUG(...) \
-  __VA_ARGS__; \
-  cout << #__VA_ARGS__ << ";\n"; \
-  pretty_print(xs);
+using namespace std;
 
 void pretty_print(forward_list<int>& xs) {
   cout << "xs: [";
