@@ -19,5 +19,5 @@ int main() {
   DEBUG(xs.pop());
   DEBUG(xs.pop());
   DEBUG(if (xs.empty()) xs.pop());
-  DEBUG(if (!xs.empty()) xs.pop());
+  DEBUG(if (xs.size() == 1) xs.pop());
 }
