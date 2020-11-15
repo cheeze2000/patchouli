@@ -6,7 +6,11 @@ using namespace std;
 void pretty_print(stack<int>& xs) {
   cout << "xs: [";
   if (xs.size() == 1) cout << xs.top();
-  else if (xs.size() > 1) cout << xs.top() << ", ...";
+  else if (xs.size() > 1) {
+    cout << xs.top();
+    int s = xs.size() - 1;
+    while (s--) cout << ", __";
+  }
   cout << "]\n\n";
 }
 
