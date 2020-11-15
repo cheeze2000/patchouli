@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define DEBUG(line) \
-  line; \
-  cout << #line << ";\n"; \
+#define DEBUG(...) \
+  __VA_ARGS__; \
+  cout << #__VA_ARGS__ << ";\n"; \
   pretty_print(xs);
 
 void pretty_print(forward_list<int>& xs) {
@@ -16,9 +16,7 @@ void pretty_print(forward_list<int>& xs) {
 }
 
 int main() {
-  forward_list<int> xs { 0, 1, 5, 2, 4, 3 };
-  pretty_print(xs);
-
+  DEBUG(forward_list<int> xs { 0, 1, 5, 2, 4, 3 });
   DEBUG(xs.front() += 6);
   DEBUG(xs.push_front(3));
   DEBUG(xs.sort());
