@@ -7,6 +7,7 @@ File | Description
 `b.cpp` | Stack
 `c.cpp` | Queue
 `d.cpp` | Deque
+`e.cpp` | Set
 
 ### Usage
 ```bash
