@@ -8,6 +8,7 @@ File | Description
 `c.cpp` | Queue
 `d.cpp` | Deque
 `e.cpp` | Set
+`f.cpp` | Map
 
 ### Usage
 ```bash
