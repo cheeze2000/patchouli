@@ -20,4 +20,5 @@ int main() {
   DEBUG(xs.reverse());
   DEBUG(xs.pop_front());
   DEBUG(xs.unique());
+  DEBUG(xs.clear());
 }
