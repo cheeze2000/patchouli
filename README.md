@@ -9,6 +9,7 @@ File | Description
 `d.cpp` | Deque
 `e.cpp` | Set
 `f.cpp` | Map
+`g.cpp` | Hash Table
 
 ### Usage
 ```bash
