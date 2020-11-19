@@ -10,6 +10,7 @@ File | Description
 `e.cpp` | Set
 `f.cpp` | Map
 `g.cpp` | Hash Table
+`h.cpp` | Heap
 
 ### Usage
 ```bash
